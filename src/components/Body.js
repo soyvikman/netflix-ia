@@ -8,6 +8,8 @@ const Body = () => {
     { path: "/browse", element: <Browse /> },
   ]);
 
+  //Add logic from auth changes
+
   return (
     <div>
       <RouterProvider router={appRouter} />
